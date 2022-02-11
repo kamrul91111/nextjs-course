@@ -2,3 +2,24 @@
   padding: 0 2rem;
   text-align: center;
 }
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.card {
+  border: 1px dashed black;
+  margin: 2px;
+  padding: 10px;
+  text-align: left;
+  min-height: 200px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: lightgreen;
+  transform: scale(1.1);
+}
